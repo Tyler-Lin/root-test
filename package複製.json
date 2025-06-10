@@ -1,12 +1,16 @@
 {
-  "name": "fisc-root",
+  "name": "Member-Entrance-PlatForm",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "ng": "ng --help",
+    "start": "ng serve --ssl",
+    "build": "ng build --aot",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "clean": "ng cache clean",
+    "lint": "ng lint",
+    "prod": "ng build -c production --aot --base-href /",
+    "test": "ng build -c test --aot --base-href /",
+    "dev": "ng build -c dev --aot --base-href /"
   },
   "private": true,
   "dependencies": {

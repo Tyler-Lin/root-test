@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fisc-root:build:production"
+              "buildTarget": "fisc-root:build:production"
             },
             "development": {
-              "browserTarget": "fisc-root:build:development"
+              "buildTarget": "fisc-root:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fisc-root:build"
+            "buildTarget": "fisc-root:build"
           }
         },
         "test": {

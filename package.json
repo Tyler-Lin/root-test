@@ -25,7 +25,6 @@
     "@nebular/date-fns": "^14.0.2",
     "@nebular/eva-icons": "^14.0.2",
     "@nebular/theme": "^14.0.2",
-    "@ngx-translate/core": "^15.0.0",
     "@swimlane/ngx-datatable": "^20.1.0",
     "@types/file-saver-es": "^2.0.3",
     "@types/lodash": "^4.14.184",
